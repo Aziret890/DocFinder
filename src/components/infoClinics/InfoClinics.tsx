@@ -9,7 +9,7 @@ import time from "@/components/svg/24/7.svg";
 import plashadka from "@/components/svg/plashadka.svg";
 import wifi from "@/components/svg/wifi.svg";
 import apteka from "@/components/svg/anpeta.svg";
-import './info.scss'
+import "./info.scss";
 const data = [
   { text: "Есть стационар", icon: stationar },
   { text: "Есть парковка", icon: p },
@@ -25,7 +25,7 @@ const data = [
 
 function InfoClinics() {
   return (
-    <div style={{background:'white'}} className="info">
+    <div style={{ background: "white" }} className="info">
       <div className="container">
         <div className="info__content flex flex-wrap gap-[25px] justify-center ">
           {data.map((el) => (

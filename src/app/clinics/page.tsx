@@ -1,11 +1,12 @@
 import Clinics from "@/components/Clinics/Clinics";
+import EmirmedSlider from "@/components/emirmedSlider/EmirmedSlider";
 import Hero from "@/components/hero/Hero";
 import Link from "next/link";
 
 const Clinics1 = () => {
   return (
     <div>
-      <Hero />
+      <EmirmedSlider />
       <div style={{ background: "white" }} className="pt-[30px] pb-[10px]">
         <div className="container">
           <div className="flex gap-[35px]">
